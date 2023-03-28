@@ -1,34 +1,31 @@
 .toolbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 60px;
   display: flex;
   align-items: center;
-  background-color: #1976d2;
+  background-color: #333;
   color: white;
-  font-weight: 600;
+  padding: 10px;
 }
 
-.content {
+.toolbar img {
+  margin-right: 10px;
+}
+
+.toolbar .spacer {
+  flex-grow: 1;
+}
+
+.toolbar .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  margin: 82px auto 32px;
-  padding: 0 16px;
-  max-width: 960px;
-  flex-direction: column;
-  align-items: center;
 }
 
-.spacer {
-  flex: 1;
+.toolbar .list li {
+  margin: 0 10px;
 }
-.list {
-}
-.list li {
-  display: flex;
-  flex-direction: row;
-  padding-left: 1rem;
 
+.toolbar .list li a {
+  color: white;
   text-decoration: none;
 }

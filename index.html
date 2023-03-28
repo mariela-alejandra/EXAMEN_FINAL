@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidney Jhamelin Guerra Colque</title>
+    <link rel="stylesheet" href="styles/sidney.css" />
+  </head>
+
+  <body>
+    <div class="toolbar" role="banner">
+      <img
+        width="40"
+        src="https://media.licdn.com/dms/image/C4E0BAQG3b9dPQ5oaTw/company-logo_200_200/0/1612886177953?e=2147483647&v=beta&t=-CT-sdBMWKf5QaFKiHT3JHD_BFUdBQ1HYFVv6IvnHP4"
+      />
+      <span>Grupo 1</span>
+      <div class="spacer"></div>
+      <ul class="list">
+        <li>
+          <a>Inicio</a>
+        </li>
+        <li><a>Publicaciones</a></li>
+        <li><a>Categorias</a></li>
+      </ul>
+    </div>
+
+    <div class="content" role="main">
+      <h1>Bienvenidos a la empresa ABC en un recuadro al medio h1</h1>
+
+      <button id="btnAction" class="btnS">Boton Visita</button>
+    </div>
+  </body>
+</html>
+
+<script>
+  let p = document.getElementById("btnAction");
+  p.onclick = muestraAlerta;
+
+  function muestraAlerta(evento) {
+    alert("Gracias por visitarnos");
+  }
+</script>

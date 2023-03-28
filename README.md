@@ -1,3 +1,2 @@
 # EXAMEN_FINAL
-
-Sidney Jhamelin Guerra Colque
+- Wilder Boris Lopez

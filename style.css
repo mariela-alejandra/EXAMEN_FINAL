@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+/* Estilos de la navegación */
+nav {
+	background-color: #ccc;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #fff;
+	background-color: #333;
+}
+
+/* Estilos del contenido principal */
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+/* Estilos del pie de página */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+/* Estilos del recuadro de servicios */
+.servicios {
+	background-color: #f2f2f2;
+	border: 1px solid #ccc;
+	padding: 20px;
+}

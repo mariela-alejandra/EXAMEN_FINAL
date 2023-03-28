@@ -1,0 +1,31 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.toolbar img {
+  margin-right: 10px;
+}
+
+.toolbar .spacer {
+  flex-grow: 1;
+}
+
+.toolbar .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.toolbar .list li {
+  margin: 0 10px;
+}
+
+.toolbar .list li a {
+  color: white;
+  text-decoration: none;
+}
